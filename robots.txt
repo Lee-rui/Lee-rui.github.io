@@ -1,0 +1,12 @@
+# hexo robots.txt
+User-agent: * Allow: /
+Allow: /archives/
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: http://rainray.cn/sitemap.xml
+Sitemap: http://www.rainray.cn/baidusitemap.xml
