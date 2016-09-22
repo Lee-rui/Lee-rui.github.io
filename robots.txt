@@ -7,6 +7,3 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-
-Sitemap: http://rainray.cn/sitemap.xml
-Sitemap: http://www.rainray.cn/baidusitemap.xml
