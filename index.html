@@ -84,22 +84,15 @@
 
 
 
-<meta name="description" content="大家好，我是RayLee。
-欢迎来到我的个人博客。
-本博客平时主要分享书籍、编程、时事等。">
+<meta name="description" content="分享书籍、编程、时事看法">
 <meta property="og:type" content="website">
-<meta property="og:title" content="关于">
-<meta property="og:url" content="http://yoursite.com/about/index.html">
+<meta property="og:title" content="RayLee's blog">
+<meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="RayLee's blog">
-<meta property="og:description" content="大家好，我是RayLee。
-欢迎来到我的个人博客。
-本博客平时主要分享书籍、编程、时事等。">
-<meta property="og:updated_time" content="2016-09-21T08:49:54.291Z">
+<meta property="og:description" content="分享书籍、编程、时事看法">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于">
-<meta name="twitter:description" content="大家好，我是RayLee。
-欢迎来到我的个人博客。
-本博客平时主要分享书籍、编程、时事等。">
+<meta name="twitter:title" content="RayLee's blog">
+<meta name="twitter:description" content="分享书籍、编程、时事看法">
 
 
 
@@ -120,15 +113,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/about/"/>
+  <link rel="canonical" href="http://yoursite.com/"/>
 
-  <title>
-  
-
-  
-    关于 | RayLee's blog
-  
-</title>
+  <title> RayLee's blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -159,7 +146,9 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left 
+   page-home 
+ ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -246,16 +235,255 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
+  <section id="posts" class="posts-expand">
+    
+      
 
-  <div id="posts" class="posts-expand">
-    
-    
-      <p>大家好，我是RayLee。</p>
-<p>欢迎来到我的个人博客。</p>
-<p>本博客平时主要分享书籍、编程、时事等。</p>
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
-  </div>
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/09/22/图形界面/" itemprop="url">
+                  《图形用户界面》
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-09-22T14:16:32+08:00" content="2016-09-22">
+              2016-09-22
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/09/22/图形界面/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/22/图形界面/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/09/22/图形界面/" class="leancloud_visitors" data-flag-title="《图形用户界面》">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <blockquote>
+<p>​    图形用户界面GUI（Graphical User Interface）编程主要有一下几个特征</p>
+<ul>
+<li><p>图形界面对象及其框架（图形界面对象之间的包含关系）</p>
+</li>
+<li><p>图形界面对象的布局（图形界面对象之间的位置关系）</p>
+</li>
+<li><p>图形界面对象上的事件响应（图形界面对象上的动作）</p>
+<p>Java的图形界面开发中有两种可使用的技术：AWT、Swing。AWT中大量使用了windows的系统函数，不是使用Java开发的，所以是重量级。Swing是由Java来实现的用户界面类，可以在任意的系统平台上工作，属于轻量级，但是在Swing中仍然大量使用了AWT的概念。</p>
+</li>
+</ul>
+</blockquote>
+<h1 id="1-AWT简介"><a href="#1-AWT简介" class="headerlink" title="1. AWT简介"></a>1. AWT简介</h1><blockquote>
+<p>​    AWT，抽象窗口工具包，所有工具类都保存在java.awt包中，此包中的所有操作类可用来建立与平台无关的图形用户界面（GUI）的类，这些类又被称为组件（Components）</p>
+</blockquote>
+<p>​    在整个AWT包中提供的所有工具类主要分为以下3种</p>
+<ul>
+<li>组件：Component</li>
+<li>容器：Container</li>
+<li>布局管理器：LayoutManager</li>
+</ul>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/09/22/图形界面/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/09/22/《1984》/" itemprop="url">
+                  《1984》
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-09-22T14:16:32+08:00" content="2016-09-22">
+              2016-09-22
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/09/22/《1984》/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/22/《1984》/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/09/22/《1984》/" class="leancloud_visitors" data-flag-title="《1984》">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="令人惶恐的《1984》"><a href="#令人惶恐的《1984》" class="headerlink" title="令人惶恐的《1984》"></a>令人惶恐的《1984》</h1><blockquote>
+<p>战争即和平<br>自由即奴役<br>无知即力量</p>
+</blockquote>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
 
 
           </div>
@@ -263,14 +491,6 @@
 
 
           
-  <div class="comments" id="comments">
-    
-      <div class="ds-thread" data-thread-key="about/index.html"
-           data-title="关于" data-url="http://yoursite.com/about/index.html">
-      </div>
-    
-  </div>
-
 
         </div>
         
