@@ -2,17 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 
-
+    
+    
   <url>
-    <loc>http://www.rainray.cn/2016/09/20/hello-world/</loc>
-    <lastmod>2016-09-20T09:53:55.580Z</lastmod>
+    <loc>http://yoursite.com/2016/09/21/Demo/</loc>
+    <lastmod>2016-09-21T08:24:40.192Z</lastmod>
     <data>
         <display>
-        <title>Hello World</title>
-        <pubTime>2016-09-20T09:53:55.548Z</pubTime>
-
-
-
+        <title>Demo</title>
+        <pubTime>2016-09-21T08:18:43.710Z</pubTime>
+        
+         
+           
         </display>
     </data>
     </url>
